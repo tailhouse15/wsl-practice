@@ -43,3 +43,7 @@ VS Codeを開き、WSLに接続されたターミナルで以下のコマンド�
   exit
   ```
 8. VS Codeのターミナルに戻り、新しいパスワードで `sudo` コマンドを実行する。
+
+## Git Flowの基本コマンド
+* `git switch -c develop` : mainから開発用ベースブランチを作成して移動
+* `git switch -c feature/〇〇` : developから作業用ブランチを作成して移動
